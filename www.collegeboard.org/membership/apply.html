@@ -1,0 +1,753 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<!-- Mirrored from www.collegeboard.org/membership/apply by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Aug 2017 16:59:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="apply.html" />
+<link rel="shortlink" href="apply.html" />
+<meta property="og:site_name" content="The College Board" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.collegeboard.org/membership/apply" />
+<meta property="og:title" content="Join the College Board" />
+<meta property="og:updated_time" content="2017-03-02T13:14:17-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@CollegeBoard" />
+<meta name="twitter:url" content="https://www.collegeboard.org/membership/apply" />
+<meta name="twitter:title" content="Join the College Board" />
+<meta property="article:published_time" content="2017-02-14T13:23:47-05:00" />
+<meta property="article:modified_time" content="2017-03-02T13:14:17-05:00" />
+  <title>Join the College Board | The College Board</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <script type="text/javascript" src="../../assets.adobedtm.com/7a8a98de0363fbed05b98da851d6b23866ffa7cc/satelliteLib-0397ae4916dd85521cee60125d909021a2f2d335.js"></script>
+  
+      <link href="../sites/all/themes/uwe_theme/css/libs/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../sites/all/themes/uwe_theme/css/cb_base/src/cb_grid.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../../mango.collegeboard.org/cbmango1/prod/apricot/all/1/apricot-2.1.0-ns.css" type="text/css" rel="stylesheet"/>
+    <link href="../../mango.collegeboard.org/cbmango1/prod/homeorg/all/6/all.css" type="text/css" rel="stylesheet"/>
+  
+
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_OfBJXRbOyIAyjZNUzVWfdNXF0qoCZceDuuUIzs-_hBs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_Z_u5I3jeWto0GQsTPtjfABhfbQ2tFGtmPQ98YwTwVTQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_9vcRfH0a1XGbsNnyLJmj6piiI3felt76xt3B-r8_Vs4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_o82fQ66MoShPp4Xd0ZITXW4_XyY0eQhWdP_KefHrAyo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/all/modules/custom/regional_offices/css/regional_offices_map31b6.css?ov5ndf" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_yhwCHbyJFrMnCR4txu_1Scq_Yg8FwGvpBGLXKvQ42sk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_OolIQ5dTXYjpvBzybiYLE1a04pfG937d6lQLW5m61R0.css" media="screen" />
+  <script type="text/javascript" src="../sites/default/files/js/js_gPM6NXOQjN2XM2JWQGfy07nKmcdDFrL289YA7h80ySs.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_DzD04PZATtGOFjfR8HJgfcaO3-pPZpWFXEvuMvQz2gA.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_milHbEYmi3m4MvB7R7qjcPjcKZx0dIVu6o5wNqBNC1U.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_PhtdCpVJEyUXk6rkTDiNQYjd7uZbBLdn1jcO0X8pcew.js"></script>
+<script type="text/javascript" src="../sites/all/modules/custom/regional_offices/js/regional_offices_map31b6.js?ov5ndf"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_qk1GoH-RzKBac1NpA8ZvPQdZ4SNqGokoXBLzrTj2zB4.js"></script>
+<script type="text/javascript" src="../sites/default/files/js/js_qb9Bn4pllyMgmBacqlvPVVXheFoFdKpc7EBXGmU9GxY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uwe_theme","theme_token":"qTCb7OYQUNcxAI-MakRaMPNlQaQIO3E8kYZEo-OwL2c","js":{"sites\/all\/themes\/uwe_theme\/js\/libs\/bootstrap.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/clientside_validation\/clientside_validation.ie8.js":1,"profiles\/uwe_profile\/modules\/contrib\/clientside_validation\/clientside_validation.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"profiles\/uwe_profile\/modules\/contrib\/views_slideshow_xtra\/views_slideshow_xtra_overlay\/js\/views_slideshow_xtra_overlay.js":1,"profiles\/uwe_profile\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/uwe_profile\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/uwe_profile\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom\/regional_offices\/js\/regional_offices_map.js":1,"profiles\/uwe_profile\/modules\/contrib\/clientside_validation\/jquery-validate\/jquery.validate.min.js":1,"sites\/all\/modules\/custom\/cb_wiris\/js\/wiris_display.js":1,"profiles\/uwe_profile\/modules\/contrib\/select_or_other\/select_or_other.js":1,"profiles\/uwe_profile\/modules\/contrib\/mollom\/mollom.js":1,"profiles\/uwe_profile\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/custom\/cb_wapricot\/apricot\/0.7.0\/consolidated\/js\/apricot.min.js":1,"sites\/all\/modules\/custom\/cb_wapricot\/cb_wapricot.js":1,"profiles\/uwe_profile\/modules\/custom\/forma11y\/forma11y.js":1,"sites\/all\/themes\/uwe_theme\/js\/plugins.js":1,"sites\/all\/themes\/uwe_theme\/js\/libs\/jquery.validate\/jquery.validate.min.js":1,"sites\/all\/themes\/uwe_theme\/js\/libs\/jquery.validate\/additional-methods.min.js":1,"sites\/all\/themes\/uwe_theme\/js\/libs\/placeholders.jquery.min.js":1,"sites\/all\/themes\/uwe_theme\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/uwe_profile\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/custom\/cb_practice_questions\/css\/cb_practice_questions.css":1,"modules\/comment\/comment.css":1,"profiles\/uwe_profile\/modules\/custom\/custom_search_blocks\/custom_search_blocks.css":1,"profiles\/uwe_profile\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/uwe_profile\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/uwe_profile\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"profiles\/uwe_profile\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/features\/resources_calendar\/css\/resources_calendar.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/uwe_profile\/modules\/contrib\/video_filter\/video_filter.css":1,"profiles\/uwe_profile\/modules\/contrib\/views_slideshow_xtra\/views_slideshow_xtra_overlay\/css\/views_slideshow_xtra_overlay.css":1,"profiles\/uwe_profile\/modules\/contrib\/views\/css\/views.css":1,"profiles\/uwe_profile\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/uwe_profile\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/regional_offices\/css\/regional_offices_map.css":1,"profiles\/uwe_profile\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/default\/files\/honeypot\/honeypot.css":1,"profiles\/uwe_profile\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/all\/modules\/custom\/cb_wapricot\/apricot\/0.7.0\/consolidated\/css\/apricot.min.css":1,"sites\/all\/modules\/custom\/cb_wapricot\/cb_wapricot.css":1,"sites\/all\/themes\/uwe_theme\/css\/cb_base\/src\/cb_normalize.min.css":1,"sites\/all\/themes\/uwe_theme\/css\/fonts.css":1,"sites\/all\/themes\/uwe_theme\/css\/global.css":1,"sites\/all\/themes\/uwe_theme\/css\/layout.css":1,"sites\/all\/themes\/uwe_theme\/css\/blocks.css":1,"sites\/all\/themes\/uwe_theme\/css\/navigation.css":1,"sites\/all\/themes\/uwe_theme\/css\/speciality.css":1,"sites\/all\/themes\/uwe_theme\/css\/cb_icons.css":1,"sites\/all\/themes\/uwe_theme\/css\/cb_states.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"300px"},"better_exposed_filters":{"views":{"relavent_links_row":{"displays":{"block_1":{"filters":{"tid":{"required":false}}}}}}},"webform":{"conditionals":{"webform-client-form-25071":{"ruleGroups":{"rgid_1":{"andor":"and","actions":{"aid_0":{"target":"webform-component--membership-note","invert":0,"action":"show","argument":""}},"rules":{"rid_0":{"source_type":"component","source":"webform-component--00-00-orgType","value":"Secondary education institution","callback":"conditionalOperatorStringNotEqual"},"rid_1":{"source_type":"component","source":"webform-component--00-00-orgType","value":"Secondary education district","callback":"conditionalOperatorStringNotEqual"},"rid_2":{"source_type":"component","source":"webform-component--00-00-orgType","value":"Agency or association","callback":"conditionalOperatorStringNotEqual"},"rid_3":{"source_type":"component","source":"webform-component--00-01-country","value":"US","callback":"conditionalOperatorStringNotEqual"},"rid_4":{"source_type":"component","source":"webform-component--00-01-country","value":"Agency or association","callback":"conditionalOperatorStringNotEmpty"}}},"rgid_0":{"andor":"and","actions":{"aid_0":{"target":"webform-component--membership-note-2","invert":0,"action":"show","argument":""},"aid_1":{"target":"webform-component--11-03-levels-grades","invert":0,"action":"show","argument":""}},"rules":{"rid_0":{"source_type":"component","source":"webform-component--00-00-orgType","value":"Higher education institution","callback":"conditionalOperatorStringNotEqual"},"rid_1":{"source_type":"component","source":"webform-component--00-00-orgType","value":"Higher education system","callback":"conditionalOperatorStringNotEqual"},"rid_2":{"source_type":"component","source":"webform-component--00-00-orgType","value":"Agency or association","callback":"conditionalOperatorStringNotEqual"},"rid_3":{"source_type":"component","source":"webform-component--00-01-country","value":"US","callback":"conditionalOperatorStringNotEqual"},"rid_4":{"source_type":"component","source":"webform-component--00-01-country","value":"US","callback":"conditionalOperatorStringNotEmpty"}}}},"sourceMap":{"webform-component--00-00-orgType":{"rgid_1":"rgid_1","rgid_0":"rgid_0"},"webform-component--00-01-country":{"rgid_1":"rgid_1","rgid_0":"rgid_0"}},"values":[]}}},"urlIsAjaxTrusted":{"\/membership\/apply":true},"password":{"strengthTitle":"Password compliance:"},"type":"setting","clientsideValidation":{"forms":{"webform-client-form-25071":{"errorPlacement":"7","customErrorFunction":"forma11yError","general":{"errorClass":"error","wrapper":"li","validateTabs":0,"scrollTo":1,"scrollSpeed":"1000","disableHtml5Validation":1,"validateOnBlur":"1","validateOnBlurAlways":"0","validateOnKeyUp":"1","validateBeforeAjax":"0","validateOnSubmit":"1","showMessages":"0","errorElement":"span"},"rules":{"submitted[00_00_orgType]":{"required":true,"messages":{"required":"Error: Select the type that best describes your organization field is required."}},"submitted[00_01_country][select]":{"required":true,"messages":{"required":"Error: Country where your organization is located field is required."}},"submitted[00_01_country][other]":{"maxlength":128,"messages":{"maxlength":"Error: Country where your organization is located Other (please specify) field has a max length of 128 characters.","required":"Error: Country where your organization is located Other (please specify) field is required."},"required":true},"url":{"maxlength":128,"messages":{"maxlength":"Error: Leave this field blank field has a max length of 128 characters."}},"mollom[captcha]":{"maxlength":128,"messages":{"maxlength":"Error: Verification field has a max length of 128 characters."}},"mollom[homepage]":{"maxlength":128,"messages":{"maxlength":"Error: Home page field has a max length of 128 characters."}}}}},"general":{"usexregxp":0,"months":{"January":1,"Jan":1,"February":2,"Feb":2,"March":3,"Mar":3,"April":4,"Apr":4,"May":5,"June":6,"Jun":6,"July":7,"Jul":7,"August":8,"Aug":8,"September":9,"Sep":9,"October":10,"Oct":10,"November":11,"Nov":11,"December":12,"Dec":12}},"groups":{"webform-client-form-25071":{}}}});
+//--><!]]>
+</script>
+  <script>
+    //Fixes jQuery Issues
+    $ = jQuery;
+    console.log(document.cookie);
+  </script>
+
+    <!-- -->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script
+    src="/sites/all/themes/uwe_theme/js/libs/html5shiv-printshiv.js"></script>
+  <script type="text/javascript"
+          src="/sites/all/themes/uwe_theme/js/libs/respond.min.js"></script>
+
+  <![endif]-->
+
+  <!--[if IE]>
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/uwe_theme/css/ie.css">
+  <![endif]-->
+
+      <script src="../../mango.collegeboard.org/cbmango1/prod/homeorg/all/6/all.js" type="text/javascript"></script>
+  </head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-25071 node-type-webform wbc-membership" >
+
+    <div id="cb-global-header" class="cb-global-header lv-globalheader-init cb-apricot"></div>
+  
+
+
+
+    <div class="pre-page-wrapper">
+        <div id="pre-page-region" class="container">
+            <div class="row">
+                  <div class="region region-pre-page">
+    
+
+<div id="block-block-9" class="block block-block hidden-xs logo-wrapper">
+
+    
+  <div class="content">
+    <!-- -->
+  </div>
+</div>
+
+<div id="block-menu-block-1" class="block block-menu-block top-nav-tabs">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1" role="navigation">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-572"><a href="../about.html" title="We’re a mission-driven not-for-profit organization that connects students to college success.">About Us</a></li>
+<li class="leaf has-children active-trail menu-mlid-642"><a href="../membership.html" title="More than 6,000 member institutions and organizations drive the College Board’s mission. " class="active-trail">Membership</a></li>
+<li class="leaf menu-mlid-867"><a href="../press.html" title="Read press releases and announcements to see what’s new at the College Board.">Newsroom</a></li>
+<li class="leaf menu-mlid-581"><a href="https://research.collegeboard.org/" title="Our world-class research informs ongoing innovation in our programs.">Research</a></li>
+<li class="last leaf menu-mlid-28706"><a href="https://professionals.collegeboard.org/prof-dev/events" title="Our events provide professional learning and networking opportunities for educators.">Events</a></li>
+</ul></div>
+  </div>
+</div>  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="top-navigation_wrapper" role="navigation" aria-label="Top Section Navigation">
+        <div class="container">
+            <div class="row">
+                            </div>
+        </div>
+    </div>
+
+    <div class="sub_navigation_wrapper" role="navigation" aria-label="Sub Section Navigation">
+        <div class="container">
+            <div class="row">
+                            </div>
+        </div>
+    </div>
+
+<div id="content-wrapper" class=" page-1-col">
+
+    <div class="container">
+                    <div id="header-region" class="row">
+                            </div>
+        
+
+        <div class="row">
+                            <div id="sidebar-left" class="hidden">
+                      <div class="region region-sidebar-left">
+    
+
+<div id="block-menu-block-2" class="block block-menu-block hidden-xs uw-side-menu">
+
+  
+  <h3 >Main menu</h3>  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1" role="navigation">
+  <ul class="menu"><li class="first collapsed menu-mlid-572"><a href="../about.html" title="We’re a mission-driven not-for-profit organization that connects students to college success.">About Us</a></li>
+<li class="expanded active-trail menu-mlid-642"><a href="../membership.html" title="More than 6,000 member institutions and organizations drive the College Board’s mission. " class="active-trail">Membership</a><ul class="menu"><li class="first leaf menu-mlid-674"><a href="benefits.html" title="">Benefits of Membership</a></li>
+<li class="leaf menu-mlid-665"><a href="join.html" title="">Become a Member</a></li>
+<li class="leaf menu-mlid-675"><a href="resources.html" title="">Current Member Resources  </a></li>
+<li class="leaf menu-mlid-25481"><a href="all-access.html" title="">Member News </a></li>
+<li class="leaf active-trail active menu-mlid-29371"><a href="apply.html" class="menu-node-unpublished active-trail active">Complete an Application</a></li>
+<li class="last collapsed menu-mlid-4521"><a href="http://professionals.collegeboard.com/prof-dev/events?excmpid=MTG15-ED-9-pdcat" title="">Events</a></li>
+</ul></li>
+<li class="leaf menu-mlid-867"><a href="../press.html" title="Read press releases and announcements to see what’s new at the College Board.">Newsroom</a></li>
+<li class="leaf menu-mlid-581"><a href="https://research.collegeboard.org/" title="Our world-class research informs ongoing innovation in our programs.">Research</a></li>
+<li class="last leaf menu-mlid-28706"><a href="https://professionals.collegeboard.org/prof-dev/events" title="Our events provide professional learning and networking opportunities for educators.">Events</a></li>
+</ul></div>
+  </div>
+</div>  </div>
+                </div>
+            
+            <div id="main-content" tabindex="0"
+                 class=" main-content col-sm-12">
+                <a id="top" class="sr-only">beginning of content:</a>
+
+                                                <h1 class="title" id="page-title" lang="en"                    >Join the College Board</h1>                
+                                    <div class="tabs"></div>                                                  <div class="region region-content">
+    
+
+<div id="block-block-296" class="block block-block">
+
+    
+  <div class="content">
+    <div class="modal" id="jsModal-inaccessible" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a aria-hidden="true" data-dismiss="modal" class="close" href="#" tabindex="0">
+          <span class="sr-only">
+            Close Dialog
+          </span>
+          &times;
+        </a>
+        <p class="modal-title">
+          <strong>
+            This document will open in a new window.
+          </strong>
+        </p>
+      </div>
+      <div class="modal-body">
+        <p>
+          If you are using assistive technology and need help accessing this document in another format, please contact us via this email address:
+          <br>
+          <a href="mailto:ssd@info.collegeboard.org">
+            ssd@info.collegeboard.org
+          </a>
+        </p>
+        <form class="modal-form pull-left">
+          <input type="checkbox" value="true" name="modalhide" id="modalhide">
+          <label for="modalhide">
+            Don't show me this message again.
+          </label>
+        </form>
+        <div class="pull-right">
+          <a title="Continue to document by clicking this button" target="_blank" id="modal-dl-btn" href="#" class="button">
+            Download
+            <i class="glyphicon glyphicon-download-alt">
+              <span class="sr-only">
+                Icon
+              </span>
+            </i>
+          </a>
+        </div>
+        <p class="clearfix">
+          <a tabindex="-1" id="end-of-modal" class="sr-only">
+            End of Modal
+          </a>
+        </p>
+      </div>
+      <!-- /.modal-body -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+  </div>
+</div>
+
+<div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-25071" class="node node-webform " about="/membership/apply" typeof="sioc:Item foaf:Document">
+
+  <div class="content">
+
+    
+      
+      <form class="webform-client-form webform-client-form-25071 wapricot forma11y-form" role="form" action="https://www.collegeboard.org/membership/apply" method="post" id="webform-client-form-25071" accept-charset="UTF-8"><div><div class="webform-progressbar">
+      <div class="webform-progressbar-outer">
+      <div class="webform-progressbar-inner" style="width: 0%">&nbsp;</div>
+              <span class="webform-progressbar-page current" style="left: 0%">
+          <span class="webform-progressbar-page-number">1</span>
+                    <span class="webform-progressbar-page-label">
+            Start          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 14.29%">
+          <span class="webform-progressbar-page-number">2</span>
+                    <span class="webform-progressbar-page-label">
+            Membership Eligibility          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 28.57%">
+          <span class="webform-progressbar-page-number">3</span>
+                    <span class="webform-progressbar-page-label">
+            Contact Information          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 42.86%">
+          <span class="webform-progressbar-page-number">4</span>
+                    <span class="webform-progressbar-page-label">
+            Accreditation and Program Use          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 57.14%">
+          <span class="webform-progressbar-page-number">5</span>
+                    <span class="webform-progressbar-page-label">
+            Organization Overview and Details          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 71.43%">
+          <span class="webform-progressbar-page-number">6</span>
+                    <span class="webform-progressbar-page-label">
+            Signature          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 85.71%">
+          <span class="webform-progressbar-page-number">7</span>
+                    <span class="webform-progressbar-page-label">
+            Preview and Submit          </span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 100%">
+          <span class="webform-progressbar-page-number">8</span>
+                    <span class="webform-progressbar-page-label">
+            Complete          </span>
+                  </span>
+          </div>
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-markup webform-component--pre-checklist">
+ <p><strong>Please note that you will need the following information in order to complete this form:</strong><strong> </strong></p>
+<ul><li>Name, title, and contact information for your organization's chief executive officer (e.g. Principal, Superintendent, or President) and a designated Member Point Person (this person is the primary contact for your organization’s membership and is responsible for appointing delegates, paying dues, and renewing the membership each year.)</li><li>Name of your institution's accrediting agency, if applicable</li><li>List of College Board programs and services used by your organization</li><li>Year founded</li><li>Annual tuition, if applicable</li><li>Total student body enrollment, if applicable</li><li>Gender and demographic breakdown of your institution's student body (agencies excepted), if applicable</li></ul>
+</div>
+<fieldset  required="required" class="composite-wrapper required form-wrapper required fieldset-wrapper webform-component webform-component-radios webform-component--00-00-orgType required" id="edit-submitted-00-00-orgtype"><legend class="cb-reset-font"><span class="fieldset-legend">Select the type that best describes your organization <span class="form-required" title="This field is required.">*</span></span></legend>
+<div class="fieldset-wrapper"  id="webform-component-00-00-orgType"><div class="form-item form-type-radio form-item-submitted-00-00-orgType">
+ <input required="required" type="radio" id="edit-submitted-00-00-orgtype-1" name="submitted[00_00_orgType]" value="Higher education institution" class="form-radio" />  <label class="option" for="edit-submitted-00-00-orgtype-1">Higher education institution </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-00-00-orgType">
+ <input required="required" type="radio" id="edit-submitted-00-00-orgtype-2" name="submitted[00_00_orgType]" value="Higher education system" class="form-radio" />  <label class="option" for="edit-submitted-00-00-orgtype-2">Higher education system </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-00-00-orgType">
+ <input required="required" type="radio" id="edit-submitted-00-00-orgtype-3" name="submitted[00_00_orgType]" value="Secondary education institution" class="form-radio" />  <label class="option" for="edit-submitted-00-00-orgtype-3">Secondary education institution </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-00-00-orgType">
+ <input required="required" type="radio" id="edit-submitted-00-00-orgtype-4" name="submitted[00_00_orgType]" value="Secondary education district" class="form-radio" />  <label class="option" for="edit-submitted-00-00-orgtype-4">Secondary education district </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-00-00-orgType">
+ <input required="required" type="radio" id="edit-submitted-00-00-orgtype-5" name="submitted[00_00_orgType]" value="Agency or association" class="form-radio" />  <label class="option" for="edit-submitted-00-00-orgtype-5">Agency or association </label>
+
+</div>
+</div></fieldset>
+<div  class="form-item webform-component webform-component-select-or-other webform-component--00-01-country">
+ <div class="select-or-other">
+<div class="form-item form-type-select form-item-submitted-00-01-country-select">
+  <label for="edit-submitted-00-01-country-select">Country where your organization is located <span class="form-required" title="This field is required.">*</span></label>
+ <select required="required" class="select-or-other-select form-select required" aria-required="true" aria-invalid="false" id="edit-submitted-00-01-country-select" name="submitted[00_01_country][select]"><option value="" selected="selected">-Select-</option><optgroup label="United States and Territories"><option value="US">United States</option><option value="AS">American Samoa</option><option value="GU">Guam</option><option value="MP">Northern Mariana Islands</option><option value="PR">Puerto Rico</option><option value="UM">United States Minor Outlying Islands</option><option value="VI">U.S. Virgin Islands</option></optgroup><optgroup label="International"><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="BQ">Caribbean Netherlands</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo (Brazzaville)</option><option value="CD">Congo (Kinshasa)</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Curaçao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island and McDonald Islands</option><option value="HN">Honduras</option><option value="HK">Hong Kong S.A.R., China</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao S.A.R., China</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barthélemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin (French part)</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></optgroup><option value="select_or_other">Other (please specify)</option></select>
+</div>
+<div class="form-item form-type-textfield form-item-submitted-00-01-country-other">
+  <label class="element-invisible" for="edit-submitted-00-01-country-other">Country where your organization is located Other (please specify) </label>
+ <input class="select-or-other-other form-text" aria-required="true" aria-invalid="false" type="text" id="edit-submitted-00-01-country-other" name="submitted[00_01_country][other]" value="" size="60" maxlength="128" />
+</div>
+
+</div>
+
+</div>
+<div  class="form-item webform-component webform-component-markup webform-component--membership-note">
+ <p>Please note before continuing: Membership is not required in order to receive a school code (DI code). Use the <a href="http://international.collegeboard.org/programs/di-request" target="_blank">Designated Institution (DI) Code Request Form</a> to apply for a code.</p>
+<p>Email <a href="mailto:international@collegeboard.org">international@collegeboard.org</a> with any questions.</p>
+</div>
+<div  class="form-item webform-component webform-component-markup webform-component--membership-note-2">
+ <p>Please note before continuing: Membership is not required in order to receive a school code (AI code). Please email <a href="mailto:international@collegeboard.org">international@collegeboard.org</a> to request an application.</p>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="7" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-iaWePsehS3dAhD0eHKZDZmoDlF1niz60EwYvv5o_c34" />
+<input type="hidden" name="form_id" value="webform_client_form_25071" />
+<input type="hidden" name="honeypot_time" value="1503565076|vV6ABHN6fHjQbvd14s8XsXiyGn60FK-DwQFH53-wst8" />
+<div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><input class="mollom-content-id" type="hidden" name="mollom[contentId]" value="" />
+<input class="mollom-captcha-id" type="hidden" name="mollom[captchaId]" value="170824e102f860c800" />
+<div class="form-item form-type-textfield form-item-mollom-captcha">
+  <label for="edit-mollom-captcha">Verification <span class="form-required" title="This field is required.">*</span></label>
+ <span class="field-prefix">
+<span class="mollom-captcha-container">
+  <a href="javascript:void(0);" class="mollom-refresh-captcha mollom-refresh-image"><img typeof="foaf:Image" src="../profiles/uwe_profile/modules/contrib/mollom/images/refresh.png" alt="Refresh" /></a>
+  <span class="mollom-captcha-content mollom-image-captcha"><img typeof="foaf:Image" src="../../rest-production.mollom.com_443/v1/captcha/170824e102f860c800.png" alt="Type the characters you see in this picture." /></span>
+  <span class="mollom-image-captcha-instructions">Type the characters you see in the picture; if you can't read them, submit the form and a new image will be generated. Not case sensitive.&nbsp;&nbsp;<a href="#" class="mollom-switch-captcha mollom-audio-captcha">Switch to audio verification.</a></span>
+</span>
+</span> <input title="Enter the characters from the verification above." type="text" id="edit-mollom-captcha" name="mollom[captcha]" value="" size="10" maxlength="128" class="form-text required" />
+</div>
+<div style="display: none;"><div class="form-item form-type-textfield form-item-mollom-homepage">
+  <label for="edit-mollom-homepage">Home page </label>
+ <input autocomplete="off" type="text" id="edit-mollom-homepage" name="mollom[homepage]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions"><input class="webform-next button-primary form-submit" type="submit" name="op" value="Next Page &gt;" /></div></div></form><span property="dc:title" content="Join the College Board" class="rdf-meta element-hidden"></span>  </div>
+
+  
+
+  
+</div>  </div>
+</div>  </div>
+
+            </div>
+
+                            <div id="sidebar-right" class="hidden">
+                      <div class="region region-sidebar-right">
+    
+
+<div id="block-nodeblock-296" class="block block-nodeblock col-md-12 secondary-block">
+
+  
+  <h3 >Search Membership</h3>  
+  <div class="content">
+    <div id="node-296" class="node node-call-out " about="/node/296" typeof="sioc:Item foaf:Document">
+        <span property="dc:title" content="Membership Search" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><script type="text/javascript">
+  function goto_submit(actionflag) {
+    document.membersearch.searchaction.value = actionflag;
+    document.membersearch.submit();
+  }
+</script>
+<form name="membersearch" method="get"
+action="http://apps.collegeboard.com/cbsearch/searchMInstitution.jsp">
+  <p>
+    Choose a state to find College Board member institutions within the United States.
+  </p>
+  <div class="membership-select-box-wrapper">
+    <label for="i_state">
+      <strong>
+        State:
+      </strong>
+    </label>
+    <select
+    id="i_state" name="i_state">
+      <option selected="selected">
+        Choose a State
+      </option>
+      <option value="AL">
+        Alabama
+      </option>
+      <option value="AK">
+        Alaska
+      </option>
+      <option value="AR">
+        Arkansas
+      </option>
+      <option value="AZ">
+        Arizona
+      </option>
+      <option value="CA">
+        California
+      </option>
+      <option value="CO">
+        Colorado
+      </option>
+      <option value="CT">
+        Connecticut
+      </option>
+      <option value="DE">
+        Delaware
+      </option>
+      <option value="DC">
+        District of Columbia
+      </option>
+      <option value="FL">
+        Florida
+      </option>
+      <option value="GA">
+        Georgia
+      </option>
+      <option value="HI">
+        Hawaii
+      </option>
+      <option value="ID">
+        Idaho
+      </option>
+      <option value="IL">
+        Illinois
+      </option>
+      <option value="IN">
+        Indiana
+      </option>
+      <option value="IA">
+        Iowa
+      </option>
+      <option value="KS">
+        Kansas
+      </option>
+      <option value="KY">
+        Kentucky
+      </option>
+      <option value="LA">
+        Louisiana
+      </option>
+      <option value="ME">
+        Maine
+      </option>
+      <option value="MD">
+        Maryland
+      </option>
+      <option value="MA">
+        Massachusetts
+      </option>
+      <option value="MI">
+        Michigan
+      </option>
+      <option value="MN">
+        Minnesota
+      </option>
+      <option value="MS">
+        Mississippi
+      </option>
+      <option value="MO">
+        Missouri
+      </option>
+      <option value="MT">
+        Montana
+      </option>
+      <option value="NE">
+        Nebraska
+      </option>
+      <option value="NV">
+        Nevada
+      </option>
+      <option value="NH">
+        New Hampshire
+      </option>
+      <option value="NJ">
+        New Jersey
+      </option>
+      <option value="NM">
+        New Mexico
+      </option>
+      <option value="NY">
+        New York
+      </option>
+      <option value="NC">
+        North Carolina
+      </option>
+      <option value="ND">
+        North Dakota
+      </option>
+      <option value="OH">
+        Ohio
+      </option>
+      <option value="OK">
+        Oklahoma
+      </option>
+      <option value="OR">
+        Oregon
+      </option>
+      <option value="PA">
+        Pennsylvania
+      </option>
+      <option value="PR">
+        Puerto Rico
+      </option>
+      <option value="RI">
+        Rhode Island
+      </option>
+      <option value="SC">
+        South Carolina
+      </option>
+      <option value="SD">
+        South Dakota
+      </option>
+      <option value="TN">
+        Tennessee
+      </option>
+      <option value="TX">
+        Texas
+      </option>
+      <option value="UT">
+        Utah
+      </option>
+      <option value="VT">
+        Vermont
+      </option>
+      <option value="VI">
+        Virgin Islands, U.S.
+      </option>
+      <option value="VA">
+        Virginia
+      </option>
+      <option value="WA">
+        Washington
+      </option>
+      <option value="WV">
+        West Virginia
+      </option>
+      <option value="WI">
+        Wisconsin
+      </option>
+      <option value="WY">
+        Wyoming
+      </option>
+    </select>
+    <button onclick="goto_submit('searchUS')">
+      Go
+    </button>
+  </div>
+  <p>
+    <a href="javascript:goto_submit('searchOut')">
+      View members outside the United States
+    </a>
+  </p>
+  <!-- <p><B>Country</B> (optional):&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="i_country" size="20"></p> -->
+  <input name="searchaction" type="hidden" value="searchUS"/>
+</form>
+</div></div></div><span property="dc:title" content="Membership Search" class="rdf-meta element-hidden"></span>  </div>
+
+  
+  
+</div>
+  </div>
+</div>  </div>
+                </div>
+            
+        </div>
+
+
+
+
+
+                    <div id="footer-region" class="row">
+                  <div class="region region-footer">
+    
+
+<div id="block-menu-block-6" class="block block-menu-block visible-xs uw-side-menu mobile container">
+
+  
+  <h3 >Main menu</h3>  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-0 menu-level-1" role="navigation">
+  <ul class="menu"><li class="first collapsed menu-mlid-572"><a href="../about.html" title="We’re a mission-driven not-for-profit organization that connects students to college success.">About Us</a></li>
+<li class="expanded active-trail menu-mlid-642"><a href="../membership.html" title="More than 6,000 member institutions and organizations drive the College Board’s mission. " class="active-trail active-trail">Membership</a><ul class="menu"><li class="first leaf menu-mlid-674"><a href="benefits.html" title="">Benefits of Membership</a></li>
+<li class="leaf menu-mlid-665"><a href="join.html" title="">Become a Member</a></li>
+<li class="leaf menu-mlid-675"><a href="resources.html" title="">Current Member Resources  </a></li>
+<li class="leaf menu-mlid-25481"><a href="all-access.html" title="">Member News </a></li>
+<li class="leaf active-trail active menu-mlid-29371"><a href="apply.html" class="menu-node-unpublished active-trail active-trail active">Complete an Application</a></li>
+<li class="last collapsed menu-mlid-4521"><a href="http://professionals.collegeboard.com/prof-dev/events?excmpid=MTG15-ED-9-pdcat" title="">Events</a></li>
+</ul></li>
+<li class="leaf menu-mlid-867"><a href="../press.html" title="Read press releases and announcements to see what’s new at the College Board.">Newsroom</a></li>
+<li class="leaf menu-mlid-581"><a href="https://research.collegeboard.org/" title="Our world-class research informs ongoing innovation in our programs.">Research</a></li>
+<li class="last leaf menu-mlid-28706"><a href="https://professionals.collegeboard.org/prof-dev/events" title="Our events provide professional learning and networking opportunities for educators.">Events</a></li>
+</ul></div>
+  </div>
+</div>  </div>
+            </div>
+        
+
+
+        <div class="breadcrumb hidden-xs" role="navigation" aria-label="Breadcrumbs">  <h3 class="sr-only">You are here</h3><a href="../index.html">Home</a><a href="../membership.html" title="More than 6,000 member institutions and organizations drive the College Board’s mission. ">Membership</a>  <span class="active-trail">Join the College Board</span></div>    </div>
+
+
+</div>
+
+
+    <div class="post-page-wrapper">
+        <div id="post-page-region" class="row">
+              <div class="region region-post-page">
+    
+
+<div id="block-block-156" class="block block-block">
+
+    
+  <div class="content">
+    <script>
+</script>  </div>
+</div>  </div>
+        </div>
+    </div>
+
+  <div id="cb-global-footer" class="cb-global-footer lv-globalfooter-init cb-apricot"></div>
+  <script type="text/javascript" src="../sites/default/files/js/js_H_Y-7zh2mPcNTsWdER9LSaaqqUMG98ad-SdPyHegDs4.js"></script>
+
+  <script>
+$( document ).ready(function() {
+  //CB Widgets Init Code Homepage only
+  var globalHeader = new cb.core.widgets.GlobalHeader({
+    placement: {
+      domElement: '#cb-global-header'
+    },
+    tracking: {
+      siteCode: 'www',
+      appId: 292
+    }
+  });
+  var globalFooter = new cb.core.widgets.GlobalFooter({
+    placement: {
+      domElement: '#cb-global-footer'
+    }
+  });
+  if(cb.core.widgets.Notification !== undefined) {
+    var notification = new cb.core.widgets.Notification({
+      placement: {
+        domElement: '#cb-notifications-widget'
+      },
+      services: {
+        notificationURI: '/api/v1/views/cbalerts.json?field_display_sites_tid=HomeOrg'
+      }
+    });
+  }
+  if(cb.core.widgets.LoginHero !== undefined) {
+    // Initialize Login Hero
+    (function() {
+      /**
+       * Build Options
+       */
+      var options = {
+        placement: {
+          domElement: '#cb-hero-login'
+        },
+        tracking: {
+          appId: 292
+        },
+        content: {
+          "guest": {
+            "headline": "",
+            "descriptive": "",
+            "images": {
+              "lg": "/sites/default/files/",
+              "md": "/sites/default/files/",
+              "sm": "/sites/default/files/",
+              "xs": "/sites/default/files/"            }
+          },
+          "professional": {
+            "headline": "",
+            "descriptive": "",
+            "images": {
+              "lg": "/sites/default/files/",
+              "md": "/sites/default/files/",
+              "sm": "/sites/default/files/",
+              "xs": "/sites/default/files/"            }
+          },
+          "student": {
+            "headline": "",
+            "descriptive": "",
+            "images": {
+              "lg": "/sites/default/files/",
+              "md": "/sites/default/files/",
+              "sm": "/sites/default/files/",
+              "xs": "/sites/default/files/"            }
+          }
+        }
+      };
+      var loginHero = new cb.core.widgets.LoginHero(options);
+    })();
+  }
+  if(cb.core.widgets.Search !== undefined) {
+    var collegeSearch = new cb.core.widgets.Search({
+      placement: {
+        domElement: '#cb-college-search-widget'
+      },
+      skin: {
+        template: {
+          uri: 'search-college.tpl'
+        }
+      },
+      config: {
+        strategy: cb.core.widgets.Search.College
+      }
+    });
+  }
+  if(cb.core.widgets.SiteSearch !== undefined) {
+    var siteSearchOptions = {
+      placement: {
+        domElement: '#sitesearch'
+      }
+    };
+    new cb.core.widgets.SiteSearch(siteSearchOptions);
+  }
+});
+</script>
+
+  <script type="text/javascript">_satellite.pageBottom();</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c1e508f4b9","applicationID":"8875813","transactionName":"blFXYRACXktXAkNYXVcbdFYWCl9WGQ9YVVdmRFRSBzxGUVMW","queueTime":0,"applicationTime":786,"atts":"QhZUF1gYTUU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from www.collegeboard.org/membership/apply by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Aug 2017 16:59:45 GMT -->
+</html>

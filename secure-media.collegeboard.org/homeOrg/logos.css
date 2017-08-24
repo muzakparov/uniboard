@@ -1,0 +1,215 @@
+/*!
+ *  Apricot v3.0.0
+ *  By:             The College Board
+ *  App:            apricot
+ *  Build Time:     2017-07-26 [12:54:16 PM] EDT
+ *  Build Number:   unknown
+ *  SVN Revision:   unknown
+ *  Jenkins Job:    unknown
+ *  This version of Apricot includes Bootstrap v3.7.0
+ */
+
+.cb-logo-white-b::before,
+.cb-logo-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-logo-white.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-logo-acorn-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-acorn.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-search-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-search.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-access-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-access.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-accuplacer-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-accuplacer.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-ap-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-ap.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-pre-ap-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-pre-ap.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-clep-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-clep.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-css-profile-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-css-profile.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-powerfaids-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-powerfaids.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-psat-nmsqt-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-psat-nmsqt.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-psat-8-9-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-psat-8-9.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-psat-10-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-psat-10.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-sat-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-sat.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-springboard-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-springboard.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-logo-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-logo-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-search-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-search-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-access-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-access-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-accuplacer-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-accuplacer-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-ap-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-ap-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-pre-ap-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-pre-ap-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-clep-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-clep-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-css-profile-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-css-profile-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-powerfaids-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-powerfaids-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-psat-nmsqt-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-psat-nmsqt-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-psat-8-9-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-psat-8-9-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-psat-10-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-psat-10-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-sat-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-sat-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cb-programs-springboard-black-b::before {
+  display: block;
+  content: '';
+  background-image: url('http://mango.collegeboard.org/cbmango1/prod/ui/all/1/cb-programs-springboard-black.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}

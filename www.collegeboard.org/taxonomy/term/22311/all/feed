@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.collegeboard.org/taxonomy/term/22311/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:schema="http://schema.org/">
+  <channel>
+    <title>Webinar</title>
+    <link>https://www.collegeboard.org/taxonomy/term/22311/all</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="https://www.collegeboard.org/taxonomy/term/22311/all/feed" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Webinar Opportunity </title>
+    <link>https://www.collegeboard.org/membership/all-access/counseling/webinar-opportunity</link>
+    <description>&lt;div class=&quot;field field-name-field-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;&quot; resource=&quot;https://www.collegeboard.org/sites/default/files/styles/all_access_image_style/public/WS.130323_05_260_0.jpg?itok=DrR0xI8T&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;https://www.collegeboard.org/sites/default/files/styles/all_access_image_style/public/WS.130323_05_260_0.jpg?itok=DrR0xI8T&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-author field-type-text field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;College Board Communications&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-newsletter-tags field-type-taxonomy-term-reference field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/all-access-tags/webinar&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Webinar&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span property=&quot;dc:title&quot; content=&quot;Webinar Opportunity &quot; class=&quot;rdf-meta element-hidden&quot;&gt;&lt;/span&gt;</description>
+     <pubDate>Thu, 08 Jan 2015 22:17:38 +0000</pubDate>
+ <dc:creator>ahexter</dc:creator>
+ <guid isPermaLink="false">9076 at https://www.collegeboard.org</guid>
+  </item>
+  </channel>
+</rss>

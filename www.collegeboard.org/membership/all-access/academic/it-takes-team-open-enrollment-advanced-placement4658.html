@@ -1,0 +1,898 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<!-- Mirrored from www.collegeboard.org/membership/all-access/academic/it-takes-team-open-enrollment-advanced-placement?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Aug 2017 18:44:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../../../sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="AdvanceKentucky, a statewide math-science initiative dedicated to helping Kentucky’s students reach new heights in rigorous academic achievement, has had a significant statewide impact on AP participation and success rates. Joanne Lang, AdvanceKentucky&#039;s Executive Director, talks about how shifting enrollment strategies, enhancing teachers&#039; content knowledge, and setting quantifiable goals for growth are just a few of the strategies that can have an impact at a school, district, and even state level to raise participation rates in AP, particularly among underrepresented minority students." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="it-takes-team-open-enrollment-advanced-placement.html" />
+<link rel="shortlink" href="it-takes-team-open-enrollment-advanced-placement.html" />
+<meta property="og:site_name" content="The College Board" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.collegeboard.org/membership/all-access/academic/it-takes-team-open-enrollment-advanced-placement" />
+<meta property="og:title" content="It Takes a Team to Open Enrollment in Advanced Placement®" />
+<meta property="og:description" content="AdvanceKentucky, a statewide math-science initiative dedicated to helping Kentucky’s students reach new heights in rigorous academic achievement, has had a significant statewide impact on AP participation and success rates. Joanne Lang, AdvanceKentucky&#039;s Executive Director, talks about how shifting enrollment strategies, enhancing teachers&#039; content knowledge, and setting quantifiable goals for growth are just a few of the strategies that can have an impact at a school, district, and even state level to raise participation rates in AP, particularly among underrepresented minority students." />
+<meta property="og:updated_time" content="2017-01-04T11:31:09-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@CollegeBoard" />
+<meta name="twitter:url" content="https://www.collegeboard.org/membership/all-access/academic/it-takes-team-open-enrollment-advanced-placement" />
+<meta name="twitter:title" content="It Takes a Team to Open Enrollment in Advanced Placement®" />
+<meta name="twitter:description" content="AdvanceKentucky, a statewide math-science initiative dedicated to helping Kentucky’s students reach new heights in rigorous academic achievement, has had a significant statewide impact on AP participation and success rates. Joanne Lang, AdvanceKentucky&#039;s Executive Director, talks about how shifting enrollment strategies, enhancing teachers&#039; content knowledge, and setting quantifiable goals for growth are just a few of the strategies that can have an impact at a school, district, and even state level to raise participation rates in AP, particularly among underrepresented minority students." />
+<meta name="twitter:image" content="https://www.collegeboard.org/sites/default/files/ADV_Logo_CMYK_Process%20%283%29.jpg" />
+<meta property="article:published_time" content="2014-09-11T12:22:38-04:00" />
+<meta property="article:modified_time" content="2017-01-04T11:31:09-05:00" />
+  <title>It Takes a Team to Open Enrollment in Advanced Placement® | Page 2 | The College Board</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <script type="text/javascript" src="../../../../assets.adobedtm.com/7a8a98de0363fbed05b98da851d6b23866ffa7cc/satelliteLib-0397ae4916dd85521cee60125d909021a2f2d335.js"></script>
+  
+      <link href="../../../sites/all/themes/uwe_theme/css/libs/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../../../sites/all/themes/uwe_theme/css/cb_base/src/cb_grid.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../../../../mango.collegeboard.org/cbmango1/prod/apricot/all/1/apricot-2.1.0-ns.css" type="text/css" rel="stylesheet"/>
+    <link href="../../../../mango.collegeboard.org/cbmango1/prod/homeorg/all/6/all.css" type="text/css" rel="stylesheet"/>
+  
+
+  <link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_OfBJXRbOyIAyjZNUzVWfdNXF0qoCZceDuuUIzs-_hBs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_Z_u5I3jeWto0GQsTPtjfABhfbQ2tFGtmPQ98YwTwVTQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_9vcRfH0a1XGbsNnyLJmj6piiI3felt76xt3B-r8_Vs4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_o82fQ66MoShPp4Xd0ZITXW4_XyY0eQhWdP_KefHrAyo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../sites/all/modules/custom/regional_offices/css/regional_offices_map31b6.css?ov5ndf" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_G7UoeTfAGJg44fUEhfWCDg9c3IcnIRvqnIJ06QjRWyY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_OolIQ5dTXYjpvBzybiYLE1a04pfG937d6lQLW5m61R0.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="../../../sites/default/files/css/css_lXDXrXorqnH5PEKQNeUvrluy0pFaSdWT2HJKm37RJig.css" media="all" />
+  <script type="text/javascript" src="../../../sites/default/files/js/js_gPM6NXOQjN2XM2JWQGfy07nKmcdDFrL289YA7h80ySs.js"></script>
+<script type="text/javascript" src="../../../sites/default/files/js/js_DzD04PZATtGOFjfR8HJgfcaO3-pPZpWFXEvuMvQz2gA.js"></script>
+<script type="text/javascript" src="../../../sites/default/files/js/js_milHbEYmi3m4MvB7R7qjcPjcKZx0dIVu6o5wNqBNC1U.js"></script>
+<script type="text/javascript" src="../../../sites/default/files/js/js_PhtdCpVJEyUXk6rkTDiNQYjd7uZbBLdn1jcO0X8pcew.js"></script>
+<script type="text/javascript" src="../../../sites/all/modules/custom/regional_offices/js/regional_offices_map31b6.js?ov5ndf"></script>
+<script type="text/javascript" src="../../../sites/default/files/js/js_DykEwqpeZehDWhpUhCjYlewXbt8bg7BgbVaYDph2Ik8.js"></script>
+<script type="text/javascript" src="../../../sites/default/files/js/js_qb9Bn4pllyMgmBacqlvPVVXheFoFdKpc7EBXGmU9GxY.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"uwe_theme","theme_token":"5sFNC5QIpHg3exXPz7ldtE6ZMQtq6aOUkIa6BOefCfQ","js":{"sites\/all\/themes\/uwe_theme\/js\/libs\/bootstrap.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/uwe_profile\/modules\/contrib\/admin_menu\/admin_devel\/admin_devel.js":1,"profiles\/uwe_profile\/modules\/contrib\/views_slideshow_xtra\/views_slideshow_xtra_overlay\/js\/views_slideshow_xtra_overlay.js":1,"profiles\/uwe_profile\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/uwe_profile\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/uwe_profile\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom\/regional_offices\/js\/regional_offices_map.js":1,"profiles\/uwe_profile\/modules\/contrib\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/modules\/custom\/cb_wiris\/js\/wiris_display.js":1,"sites\/all\/themes\/uwe_theme\/js\/all-access.js":1,"misc\/textarea.js":1,"profiles\/uwe_profile\/modules\/contrib\/mollom\/mollom.js":1,"profiles\/uwe_profile\/modules\/custom\/forma11y\/forma11y.js":1,"sites\/all\/themes\/uwe_theme\/js\/plugins.js":1,"sites\/all\/themes\/uwe_theme\/js\/libs\/jquery.validate\/jquery.validate.min.js":1,"sites\/all\/themes\/uwe_theme\/js\/libs\/jquery.validate\/additional-methods.min.js":1,"sites\/all\/themes\/uwe_theme\/js\/libs\/placeholders.jquery.min.js":1,"sites\/all\/themes\/uwe_theme\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/uwe_profile\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/custom\/cb_practice_questions\/css\/cb_practice_questions.css":1,"modules\/comment\/comment.css":1,"profiles\/uwe_profile\/modules\/custom\/custom_search_blocks\/custom_search_blocks.css":1,"profiles\/uwe_profile\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/uwe_profile\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/uwe_profile\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"profiles\/uwe_profile\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/features\/resources_calendar\/css\/resources_calendar.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/uwe_profile\/modules\/contrib\/video_filter\/video_filter.css":1,"profiles\/uwe_profile\/modules\/contrib\/views_slideshow_xtra\/views_slideshow_xtra_overlay\/css\/views_slideshow_xtra_overlay.css":1,"profiles\/uwe_profile\/modules\/contrib\/views\/css\/views.css":1,"profiles\/uwe_profile\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/uwe_profile\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/regional_offices\/css\/regional_offices_map.css":1,"profiles\/uwe_profile\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"profiles\/uwe_profile\/modules\/contrib\/link\/link.css":1,"sites\/default\/files\/honeypot\/honeypot.css":1,"profiles\/uwe_profile\/modules\/contrib\/field_group\/field_group.field_ui.css":1,"sites\/all\/themes\/uwe_theme\/css\/cb_base\/src\/cb_normalize.min.css":1,"sites\/all\/themes\/uwe_theme\/css\/fonts.css":1,"sites\/all\/themes\/uwe_theme\/css\/global.css":1,"sites\/all\/themes\/uwe_theme\/css\/layout.css":1,"sites\/all\/themes\/uwe_theme\/css\/blocks.css":1,"sites\/all\/themes\/uwe_theme\/css\/navigation.css":1,"sites\/all\/themes\/uwe_theme\/css\/speciality.css":1,"sites\/all\/themes\/uwe_theme\/css\/cb_icons.css":1,"sites\/all\/themes\/uwe_theme\/css\/cb_states.css":1,"sites\/all\/themes\/uwe_theme\/css\/blog.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"300px"},"better_exposed_filters":{"views":{"all_access":{"displays":{"block_1":{"filters":[]},"block_2":{"filters":[]}}},"relavent_links_row":{"displays":{"block_1":{"filters":{"tid":{"required":false}}}}},"all_access_tag_cloud":{"displays":{"block":{"filters":[]}}}},"datepicker":false,"slider":false,"settings":[],"autosubmit":false},"urlIsAjaxTrusted":{"\/membership\/all-access":true,"\/comment\/reply\/6866":true},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});
+//--><!]]>
+</script>
+  <script>
+    //Fixes jQuery Issues
+    $ = jQuery;
+    console.log(document.cookie);
+  </script>
+
+    <!-- -->
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script
+    src="/sites/all/themes/uwe_theme/js/libs/html5shiv-printshiv.js"></script>
+  <script type="text/javascript"
+          src="/sites/all/themes/uwe_theme/js/libs/respond.min.js"></script>
+
+  <![endif]-->
+
+  <!--[if IE]>
+  <link rel="stylesheet" type="text/css" href="/sites/all/themes/uwe_theme/css/ie.css">
+  <![endif]-->
+
+      <script src="../../../../mango.collegeboard.org/cbmango1/prod/homeorg/all/6/all.js" type="text/javascript"></script>
+  </head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-6866 node-type-newsletter wbc-blog" >
+
+    <div id="cb-global-header" class="cb-global-header lv-globalheader-init cb-apricot"></div>
+  
+
+<div class="pre-page-wrapper">
+    <div id="pre-page-region" class="container">
+          <div class="region region-pre-page">
+    
+
+<div id="block-block-9" class="block block-block hidden-xs logo-wrapper">
+
+    
+  <div class="content">
+    <!-- -->
+  </div>
+</div>
+
+<div id="block-block-181" class="block block-block all-access-banner">
+
+    
+  <div class="content">
+    <a id="logo-all-access" href="../../all-access.html" title="All Access logo">
+  All Access - News for Members
+</a>
+<span class="tagline">
+  <a href="../../../membership.html" title="Go to the Membership page">
+    Go to the Membership page
+  </a>
+  <br />
+  <a href="https://professionals.collegeboard.org/prof-dev" title="College Board professional development opportunities">
+    Find College Board professional development opportunities here
+  </a>
+</span>
+  </div>
+</div>  </div>
+    </div>
+</div>
+
+
+<div class="pre-content-wrapper">
+    <div id="content-wrapper" class="container page-3-col">
+
+                    <div id="header-region" class="row">
+                            </div>
+        
+
+                    <div id="sidebar-left" class="col-sm-3">
+                  <div class="region region-sidebar-left">
+    
+
+<div id="block-menu-block-2" class="block block-menu-block hidden-xs uw-side-menu">
+
+  
+  <h3 >Main menu</h3>  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1" role="navigation">
+  <ul class="menu"><li class="first collapsed menu-mlid-572"><a href="../../../about.html" title="We’re a mission-driven not-for-profit organization that connects students to college success.">About Us</a></li>
+<li class="collapsed menu-mlid-642"><a href="../../../membership.html" title="More than 6,000 member institutions and organizations drive the College Board’s mission. ">Membership</a></li>
+<li class="leaf menu-mlid-867"><a href="../../../press.html" title="Read press releases and announcements to see what’s new at the College Board.">Newsroom</a></li>
+<li class="leaf menu-mlid-581"><a href="https://research.collegeboard.org/" title="Our world-class research informs ongoing innovation in our programs.">Research</a></li>
+<li class="last leaf menu-mlid-28706"><a href="https://professionals.collegeboard.org/prof-dev/events" title="Our events provide professional learning and networking opportunities for educators.">Events</a></li>
+</ul></div>
+  </div>
+</div>
+
+<div id="block-views-exp-all-access-page" class="block block-views">
+
+    
+  <div class="content">
+    <form role="form" class="forma11y-form" action="https://www.collegeboard.org/membership/all-access" method="get" id="views-exposed-form-all-access-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-topic-wrapper" class="views-exposed-widget views-widget-filter-field_newsletter_topic_value">
+                  <label for="edit-topic">
+            Topic          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-topic">
+ <select id="edit-topic" name="topic" class="form-select"><option value="All" selected="selected">- Any -</option><option value="counseling">Counseling</option><option value="admissions">Admissions</option><option value="financial-aid">Financial Aid</option><option value="academic">Academic</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-search-wrapper" class="views-exposed-widget views-widget-filter-combine">
+                  <label for="edit-search">
+            Search Articles by Keyword          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-search">
+ <input type="text" id="edit-search" name="search" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-region-wrapper" class="views-exposed-widget views-widget-filter-field_newsletter_region_value">
+                  <label for="edit-region">
+            Filter by Region          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-region">
+ <select id="edit-region" name="region" class="form-select"><option value="All" selected="selected">- Any -</option><option value="middle-states">Middle States</option><option value="midwestern">Midwestern</option><option value="new-england">New England</option><option value="southern">Southern</option><option value="southwestern">Southwestern</option><option value="western">Western</option><option value="puerto-rico-latin-america">Puerto Rico / Latin America</option><option value="international">International</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-tag-wrapper" class="views-exposed-widget views-widget-filter-name">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-tag">
+ <input type="text" id="edit-tag" name="tag" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-all-access" name="" value="Submit" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>  </div>
+</div>
+
+<div id="block-views-all-access-tag-cloud-block" class="block block-views">
+
+  
+  <h3 >Popular Tags</h3>  
+  <div class="content">
+    <div class="view view-all-access-tag-cloud view-id-all_access_tag_cloud view-display-id-block view-dom-id-d79cb725141f84302b7e3908719a8222">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../taxonomy/term/566.html">AP</a></span>  </span>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../taxonomy/term/601.html">College Board Events</a></span>  </span>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../taxonomy/term/576.html">SAT</a></span>  </span>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../all-access-tags/khan-academy.html">Khan Academy</a></span>  </span>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../all-access-tags/financial-aid.html">Financial Aid</a></span>  </span>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../taxonomy/term/656.html">Redesigned SAT</a></span>  </span>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../taxonomy/term/391.html">advanced placement</a></span>  </span>  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+  <span class="views-field views-field-name-1">        <span class="field-content"><a href="../../../taxonomy/term/586.html">Board of Trustees</a></span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+
+<div id="block-views-all-access-block-2" class="block block-views">
+
+  
+  <h3 >Archive</h3>  
+  <div class="content">
+    <div class="view view-all-access view-id-all_access view-display-id-block_2 view-dom-id-ed6faadf393560e5013e1c8e1b0325a3">
+            <div class="view-header">
+      <a href="../index.html">All</a>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+  <ul class="views-summary">
+      <li><a href="../all/201610.html">October 2016</a>
+          </li>
+      <li><a href="../all/201609.html">September 2016</a>
+          </li>
+      <li><a href="../all/201608.html">August 2016</a>
+          </li>
+      <li><a href="../all/201607.html">July 2016</a>
+          </li>
+      <li><a href="../all/201606.html">June 2016</a>
+          </li>
+      <li><a href="../all/201605.html">May 2016</a>
+          </li>
+      <li><a href="../all/201604.html">April 2016</a>
+          </li>
+      <li><a href="../all/201603.html">March 2016</a>
+          </li>
+      <li><a href="../all/201602.html">February 2016</a>
+          </li>
+      <li><a href="../all/201601.html">January 2016</a>
+          </li>
+    </ul>
+</div>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="it-takes-team-open-enrollment-advanced-placement.html">First Results Page</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="it-takes-team-open-enrollment-advanced-placement.html">Previous Results Page 1 of 4</a></li>
+<li class="pager-item"><a title="Go to page 1" href="it-takes-team-open-enrollment-advanced-placement.html"><span class="element-invisible">Results Page </span>1</a></li>
+<li class="pager-current">2</li>
+<li class="pager-item"><a title="Go to page 3" href="it-takes-team-open-enrollment-advanced-placement9ba9.html?page=3"><span class="element-invisible">Results Page </span>3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="it-takes-team-open-enrollment-advanced-placementfdb0.html?page=4"><span class="element-invisible">Results Page </span>4</a></li>
+<li class="pager-next"><a title="Go to next page" href="it-takes-team-open-enrollment-advanced-placement9ba9.html?page=3">Next Results Page 3 of 4</a></li>
+<li class="pager-last last"><a title="Go to last page" href="it-takes-team-open-enrollment-advanced-placementfdb0.html?page=4">Last Results Page</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+</div>  </div>
+            </div>
+                <div id="main-content" tabindex="0" class=" main-content col-sm-9 col-md-6">
+            <a id="top" class="sr-only">beginning of content:</a>
+
+                                    <h1 class="title" id="page-title" lang="en"                >It Takes a Team to Open Enrollment in Advanced Placement®</h1>            
+            <div class="tabs"></div>                                      <div class="region region-content">
+    
+
+<div id="block-block-296" class="block block-block">
+
+    
+  <div class="content">
+    <div class="modal" id="jsModal-inaccessible" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a aria-hidden="true" data-dismiss="modal" class="close" href="#" tabindex="0">
+          <span class="sr-only">
+            Close Dialog
+          </span>
+          &times;
+        </a>
+        <p class="modal-title">
+          <strong>
+            This document will open in a new window.
+          </strong>
+        </p>
+      </div>
+      <div class="modal-body">
+        <p>
+          If you are using assistive technology and need help accessing this document in another format, please contact us via this email address:
+          <br>
+          <a href="mailto:ssd@info.collegeboard.org">
+            ssd@info.collegeboard.org
+          </a>
+        </p>
+        <form class="modal-form pull-left">
+          <input type="checkbox" value="true" name="modalhide" id="modalhide">
+          <label for="modalhide">
+            Don't show me this message again.
+          </label>
+        </form>
+        <div class="pull-right">
+          <a title="Continue to document by clicking this button" target="_blank" id="modal-dl-btn" href="#" class="button">
+            Download
+            <i class="glyphicon glyphicon-download-alt">
+              <span class="sr-only">
+                Icon
+              </span>
+            </i>
+          </a>
+        </div>
+        <p class="clearfix">
+          <a tabindex="-1" id="end-of-modal" class="sr-only">
+            End of Modal
+          </a>
+        </p>
+      </div>
+      <!-- /.modal-body -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+  </div>
+</div>
+
+<div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    
+
+<div id="node-6866" class="node node-newsletter clearfix" about="/membership/all-access/academic/it-takes-team-open-enrollment-advanced-placement" typeof="sioc:Item foaf:Document">
+  <div class="content">
+
+    
+    <a href="../../all-access.html" title="Go back" class="all-access-back">Back</a>
+    <div class="newsletter-fields">
+        <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="" resource="https://www.collegeboard.org/sites/default/files/styles/all_access_image_style/public/ADV_Logo_CMYK_Process%20%283%29.jpg?itok=SIgxgufN"><img typeof="foaf:Image" src="../../../sites/default/files/styles/all_access_image_style/public/ADV_Logo_CMYK_Process%20(3)1f06.jpg?itok=SIgxgufN" alt="AdvanceKentucky" title="AdvanceKentucky" /></div></div></div>        <h3>It Takes a Team to Open Enrollment in Advanced Placement®</h3>
+        <a href="../../all-access.html" class="author-click">
+        By Joanne Lang, Executive Vice President, Kentucky Science and Technology Corporation, Executive Director, AdvanceKentucky        </a>
+        <div class="date"><span property="dc:date dc:created" content="2014-09-11T12:22:38-04:00" datatype="xsd:dateTime">09/11/14</span></div>
+        <div class="comments-share">
+            <a id="comment-count" href="#comments">Comments (1)</a>
+            <span>Share:</span>
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.collegeboard.org%2Fmembership%2Fall-access%2Facademic%2Fit-takes-team-open-enrollment-advanced-placement" title="Share on Facebook" id="share-facebook" class="share">Share on Facebook</a>
+            <a target="_blank" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.collegeboard.org%2Fmembership%2Fall-access%2Facademic%2Fit-takes-team-open-enrollment-advanced-placement&amp;original_referer=http%3A%2F%2Fwww.collegeboard.org%2Fmembership%2Fall-access%2Facademic%2Fit-takes-team-open-enrollment-advanced-placement" title="Share on Twitter" id="share-twitter" class="share">Share on Twitter</a>
+        </div>
+        <div class="clear"></div>
+        <div class="body"><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>At the start of another school year, we are reminded daily of the power of embracing high expectations for rigorous student learning. This is our annual time to reflect on what makes the difference. Kentucky was one of the ‘pioneer states’ selected by the <a href="http://nms.org/Programs/CollegeReadinessProgram.aspx">National Math and Science Initiative</a> (NMSI) to replicate its proven AP Teacher Training and Incentive Program. As a result,<a href="http://www.advancekentucky.com/"> AdvanceKentucky</a> was created as an initiative of Kentucky Science and Technology Corporation in partnership with Kentucky Department of Education and NMSI and several other funding partners.</p>
+<p><span>Often I’m asked “What’s the one element that has made the most difference in the extraordinary Advanced Placement (AP) gains among AdvanceKentucky schools?” They are speaking of what we affectionately call our </span><a href="http://www.advancekentucky.com/our-program/elements-of-success" style="line-height: 1.4285; background-color: rgb(255, 255, 255);">Wheel of Success</a><span> – the integrated support systems for students and their teachers proven by NMSI. The system offers an open enrollment approach to AP that is grounded in high expectations and soft landings that make it ‘safe’ for both teachers and students to try and if necessary try again. We know, after eight cohorts of participating Kentucky high schools, that adopting all of the elements of the NMSI model simultaneously is essential. The key is an inherent belief that </span><em>many more</em><span> high school students can perform at AP levels.  And the AdvanceKentucky team starts each year with the collective expectation that </span><em>many more</em><span> students from our participating schools, particularly those traditionally underrepresented in AP, will earn qualifying scores on the next AP exams.</span></p>
+<p><span>So far in 92 schools, with almost 700 AP math, science and English (MSE) teachers supporting some 70,000 AP MSE enrollees, we’ve seen many permutations on how this shift in open enrollment thinking can be translated into sustainable, locally relevant practices.</span></p>
+<p><span>Adopting open enrollment recruitment strategies is insufficient without a review of policies and practices.   Here are some examples of both immediate and long-term considerations – some that don’t require funding and others that might benefit from reassigning existing funds.</span></p>
+<ul><li>As we shift our focus to how we can help many more students to participate in AP, do any policies inadvertently discourage students from even asking about AP – and how do we know this?  For example, do our summer assignments offer inviting preparation options or are they written in a way that ultimately discourages students from even asking about AP?  Are ‘late bloomers’ made to feel welcome in AP?</li></ul><ul><li>Know the profile of students that earned a ‘2’ on the most recent AP exams.  Know well what it would have taken for the majority of them to earn a qualifying score and think of these as strategic opportunities to enhance student learning – not as ‘failures’.</li></ul><ul><li>Consider creative scheduling, if possible.  For example, is it feasible to offer AP Biology for 10th graders so that access to AP math and science courses isn’t limited to junior and senior years?</li></ul><ul><li>Look for added supports that the school could provide to students. Might we make it a priority to offer study hall for AP students throughout the day for extra help? Can we arrange extended school services for transportation for extra help before or after school? Now that we’ve broadened access, how will we help subsidize exam fees?   Are our labs equipped sufficiently for <em>many more</em> students to ‘do’ science at the AP level?<br /> </li><li>Are teacher evaluations in any way based on AP ‘pass rates’ (i.e., the number of qualifying scores earned divided by the number of AP exams taken)?  While perhaps somewhat counterintuitive, placing a ‘value’ on pass rates actually incents a ‘selective’ enrollment environment. This practice may inadvertently discourage a teacher from recruiting <em>many more</em> students to enroll in his/her AP class and it can unconsciously dampen the level of enthusiasm for encouraging students to sit for the AP exam.  Strive relentlessly for strong pass rates but be ready for them to perhaps take a dip while simultaneously increasing the number of students receiving qualifying scores.  Over time we see instances where these rates return to baseline.</li></ul><ul><li>Set quantifiable growth goals for numbers of qualifying scores for a school and individual teachers compared to their own prior performance.  What constitutes <em>many more</em> students in a high school of 2,000 with AP experience is vastly different than in a school of 750 or even less than 500 total students enrolled and little or no AP experience.  One size does not fit all.</li></ul><ul><li>Never stop training teachers to enhance their <em>content</em> knowledge.  Kentucky recently enjoyed access to five weeks of local APSIs, more than double the access when AdvanceKentucky began. Reach out to university partners willing to step up to respond to a growing demand for this training. For teachers who are willing to take on the open enrollment approach find them mentors who have successfully embraced open enrollment and who know well the challenges of making this shift and sustaining student success.</li></ul><ul><li>Pay attention to the teachers of AP feeder classes and team them with AP teachers.  It’s not coincidental that almost 3,000 Kentucky MSE teachers of feeder, Pre-AP classes among our middle and high schools have received multi-year <em>content</em> training by Kentucky educators who are NMSI-endorsed national trainers.</li></ul><p>This fundamental shift in approach needs thoughtful orientation and plenty of time for reflection and discussion followed by action planning and goal setting. A successful shift requires a team approach in which healthy skepticism forces the team to ask all the ‘what if’ questions and reflect on locally relevant solutions.  These are embraced only with sufficient time, which is why we begin working with interested schools almost a year in advance of formal implementation. It takes time to take a fresh, in-depth look at student data and review policies and practices that inadvertently may be discouraging AP participation – despite best intentions.</p>
+<p>In short, take seriously the <a href="http://www.sduhsd.net/documents/Parents and Students/Special Programs/Access_Equity_4.10.6.1.pdf">College Board Equity and Access Policy</a> but figure out what this means to your local circumstances. It takes a team to open enrollment in AP and sustain high expectations for students and teachers. At the risk of oversimplifying a major policy challenge, is your goal to filter students <em>out of</em> an AP class because they’re not ‘ready’ – or to embrace high expectations through open enrollment whereby we deliberately look for signals to<em> include</em> students even if you know they will need support from the wheel of success?  Likewise, do your policies and practices strive for resulting in more students ‘enrolling’ in college or for more that are so well prepared with the ‘AP experience’ that <em>many more</em> students ‘graduate’ from college with a credential?  The policy direction you take matters.</p>
+<p><strong>Measuring Success                 </strong></p>
+<p>If you think this scenario is nice but not <em>the</em> answer, I agree.  However, evidence suggests that it is <em>an</em> answer for addressing college readiness and helping to close the gap among students traditionally underrepresented in AP. Please keep reading for the measurable impact that only about one-third of Kentucky’s public high schools with open enrollment have had on advancing the state’s overall AP standing.</p>
+<ul><li>In the first five years after AdvanceKentucky was introduced Kentucky overall experienced a 100 percent increase in number of AP qualifying scores in all subjects and 137 percent increase in  underrepresented minority qualifying scores -- compared to US increases of 49 percent and 88 percent respectively. <br /> </li><li>The number of AP Scholars statewide increased roughly 350 percent during this same timeframe.  With dramatic acceleration in AP MSE access, participation and performance, we have seen student interest spilling over to other AP subjects and contributing to Kentucky’s overall position among the top states in qualifying score increases from 2008-2013; and 2014 results promise to be just as encouraging.<br /> </li><li>Kentucky’s AP MSE qualifying scores increased 105 percent and minority qualifying scores by 180 percent.  In math-science only, minority scores increased 183 percent.<br /> </li><li>About one-third of participating AdvanceKentucky schools is located in the rural Appalachian region, which has kept pace with 100 percent increases among these rural schools.<br /> </li><li>Among schools that have participated for a standard three-year intervention, they earned an average 229 percent increase in AP MSE qualifying scores, while qualifying scores earned by low income students increased an average 424 percent and an average 411 percent in scores earned by minority students.</li></ul><p>In 2013, the Kentucky Center for Education and Workforce Statistics released an independent research study that examined the longitudinal impact of our approach on the initial 10,500 students of AdvanceKentucky vs a control group. This study found that more AdvanceKentucky students enrolled in college and far fewer of them enrolled in college remedial classes (and there was almost negligible remediation for students earning qualifying scores). The same benefit was demonstrated among AdvanceKentucky students who were from underrepresented minority and low income populations. The study will be updated annually.</p>
+<p>Links below offer details on the data behind the story:</p>
+<ul><li><a href="http://www.advancekentucky.com/news/annual-report">AdvanceKentucky Five-Year Performance Review: 2008-2013</a><br /> </li><li><a href="http://www.advancekentucky.com/news/in-the-news/25-newsroom/inthenews/151-impact-beyond-the-ap-classroom">Kentucky Department of Education Media Release and 2013 Research Study on Longitudinal Impact of the AP Experience Among AdvanceKentucky Students</a><br /> </li><li><a href="https://sites.ed.gov/progress/2013/12/to-get-more-students-ready-for-college-and-careers-kentucky-expands-access-to-advanced-placement-for-low-income-students/">US Department of EdBlog (2013) -  Progress: Teachers, Leaders Students Transforming Education “To Get More Students Ready for College and Careers, Kentucky Expands Access to Advanced Placement for Low-Income Students”</a></li></ul><p><span>Thank you for the opportunity to share this story from Kentucky.  </span></p></div></div></div></div>
+        <div class="tags"><span class="mobile-inline">Tags: </span><div class="field field-name-field-newsletter-tags field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="../../../taxonomy/term/566.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">AP</a></div><div class="field-item odd"><a href="../../../taxonomy/term/556.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">All In</a></div><div class="field-item even"><a href="../../../all-access-tags/southern-region.html" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">southern region</a></div></div></div></div>
+    </div>
+
+    <ul class="links inline"><li class="comment-add first last active"><a href="it-takes-team-open-enrollment-advanced-placement.html#comment-form" title="Share your thoughts and opinions related to this posting." class="active">Add new comment</a></li>
+</ul>
+    <div id="comments" class="comment-wrapper">
+          <h2 class="title">Comments</h2>
+      
+  <a id="comment-18946"></a>
+
+
+<div class="comment comment-by-anonymous clearfix" about="/comment/18946#comment-18946" typeof="sioc:Post sioct:Comment">
+  
+  <div class="field field-name-field-full-name field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Brenda Martin</div></div></div>
+  <div class="submitted">
+            2 years 10 months ago  </div>
+
+  <div class="content">
+    This is interesting data on AP progress in Kentucky!  It would be nice to see AP Exam scores of 3-5 for Science(13%) Math(13%), World Language (2%) Arts & Humanities(2%) scores increased as History/Social Studies(40%) & English(30%) scores are.  I think that we must investigate how we further use our investments in using these tests. The answers to the following questions must help to guide us further. 
+
+1. Is Dual Credit as good as if not better offerings than AP classes?  There might not be sufficient data to show that High School  AP science classes contains enough rigor to serve as a college courses.   
+2.  Is it reasonable to hinge college credit on one AP Exam?  Some exams do not cover sufficient subject content.  Some changes had been made to some classes such as AP Biology in 2012 to reflect more standards. "The changes, which are to take effect in the 2012-13 school year, are part of a sweeping redesign of the entire A.P. program. Instead of just providing teachers with a list of points that need to be covered for the exams, the College Board will create these detailed standards for each subject and create new exams to match".  http://www.nytimes.com/2011/01/09/education/edlife/09ap-t.html?pagewanted=all&_r=1&  
+3.  Can there be other incentives to drive higher performance?  Some states have offered financial benefits to teachers and students who pass the exams.  Even though, some students weren't impacted, some low-income students did do better.   Also, a study show that even with students who earned a 4 on the AP Exam, the college the selected required a 5 for college credit.  So the college credit incentive isn't always satisfied.   
+4.  Do these tests serve as reliable indicators of how students will perform in college?  Some of the factors that help these students to do well are factors that will be there even if these particular classes weren't taken.  Also, a study showed that of the nearly 30,000 students taking AP courses in high school, they did not get higher grades as Freshmen in college. However, those receiving a 4 or 5 on AP Exams did score higher on SAT exams, etc.  
+5.  Can we expect to see higher performance, once Kentucky Core Academic Standards (KCAS)  trickle through the system?  I think strong rudiments must start early in a creative fashion.  Honed teaching that responds to varied learning needs must allow students to continue to build on their knowledge and opportunity base that prepares them for AP and Dual College Credit courses and more!  I also think we need to define a strategy for helping to encourage students who don't do well on the AP Exams to still be prepared to take these classes in college and not shun these subjects. 
+
+Sources:
+http://educationnext.org/cash-for-test-scores/
+http://www.cfa.harvard.edu/smg/ficss/research/articles/Science_educator_advanced.pdf.  Also see http://prichblog.blogspot.com.
+
+Brenda Martin, National PTA Social Media Ambassador
+NeKy District 26 PTA http://26pta.webs.com
+Blog: DebateandSwitch.wordpress.com
+Follow on Twitter @bdrumartin; Pinterest @bdrumartin; Facebook/neky.pta
+        </div>
+</div>
+<h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-first first"><a title="Go to first page" href="it-takes-team-open-enrollment-advanced-placement.html">First Results Page</a></li>
+<li class="pager-previous"><a title="Go to previous page" href="it-takes-team-open-enrollment-advanced-placement.html">Previous Results Page 1 of 4</a></li>
+<li class="pager-item"><a title="Go to page 1" href="it-takes-team-open-enrollment-advanced-placement.html"><span class="element-invisible">Results Page </span>1</a></li>
+<li class="pager-current">2</li>
+<li class="pager-item"><a title="Go to page 3" href="it-takes-team-open-enrollment-advanced-placement9ba9.html?page=3"><span class="element-invisible">Results Page </span>3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="it-takes-team-open-enrollment-advanced-placementfdb0.html?page=4"><span class="element-invisible">Results Page </span>4</a></li>
+<li class="pager-next"><a title="Go to next page" href="it-takes-team-open-enrollment-advanced-placement9ba9.html?page=3">Next Results Page 3 of 4</a></li>
+<li class="pager-last last"><a title="Go to last page" href="it-takes-team-open-enrollment-advanced-placementfdb0.html?page=4">Last Results Page</a></li>
+</ul></div>
+      <h2 class="title comment-form">Add new comment</h2>
+    <span>Your email address will not be published.</span><br />
+    <span><span class="form-required">*</span> Required</span></span>
+    <form class="comment-form forma11y-form" role="form" action="https://www.collegeboard.org/comment/reply/6866" method="post" id="comment-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Your name </label>
+ <input type="text" id="edit-name" name="name" value="" size="30" maxlength="60" class="form-text" />
+</div>
+<div class="field-type-text field-name-field-full-name field-widget-text-textfield form-wrapper" id="edit-field-full-name"><div id="field-full-name-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-full-name-und-0-value">
+  <label for="edit-field-full-name-und-0-value">Full Name <span class="form-required" title="This field is required.">*</span></label>
+ <input class="text-full form-text required" aria-required="true" aria-invalid="false" type="text" id="edit-field-full-name-und-0-value" name="field_full_name[und][0][value]" value="" size="30" maxlength="255" />
+</div>
+</div></div><input type="hidden" name="form_build_id" value="form--wbqhhwmsx9CtDyFRLVE94_8xHtu0V5ZkHU_8a5jMXo" />
+<input type="hidden" name="form_id" value="comment_node_newsletter_form" />
+<input type="hidden" name="honeypot_time" value="1503597852|othwUPwDZeD0ZbHVSORPtvKPnvKTLk9g3-slsSQ4mTY" />
+<div class="field-type-email field-name-field-email field-widget-email-textfield form-wrapper" id="edit-field-email"><div id="field-email-add-more-wrapper"><div class="text-full-wrapper"><div class="form-item form-type-textfield form-item-field-email-und-0-email">
+  <label for="edit-field-email-und-0-email">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input aria-required="true" aria-invalid="false" type="text" id="edit-field-email-und-0-email" name="field_email[und][0][email]" value="" size="30" maxlength="128" class="form-text required" />
+</div>
+</div></div></div><div class="field-type-link-field field-name-field-website field-widget-link-field form-wrapper" id="edit-field-website"><div id="field-website-add-more-wrapper"><div class="form-item form-type-link-field form-item-field-website-und-0">
+  <label for="edit-field-website-und-0">Website </label>
+ <div class="link-field-subrow clearfix"><div class="link-field-url"><div class="form-item form-type-textfield form-item-field-website-und-0-url">
+  <label class="element-invisible" for="edit-field-website-und-0-url">URL </label>
+ <input type="text" id="edit-field-website-und-0-url" name="field_website[und][0][url]" value="" size="60" maxlength="2048" class="form-text" />
+</div>
+</div></div>
+<div class="description"><span id="edit-field-website-und-0--description">Full website URL including http:// or https://</span></div>
+</div>
+</div></div><div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper" id="edit-comment-body"><div id="comment-body-add-more-wrapper"><div class="form-item form-type-textarea form-item-comment-body-und-0-value">
+  <label for="edit-comment-body-und-0-value">Comment <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea class="text-full form-textarea required" aria-required="true" aria-invalid="false" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+</div></div><input class="mollom-content-id" type="hidden" name="mollom[contentId]" value="" />
+<input class="mollom-captcha-id" type="hidden" name="mollom[captchaId]" value="17082453bc68801b97" />
+<div class="form-item form-type-textfield form-item-mollom-captcha">
+  <label for="edit-mollom-captcha">Verification <span class="form-required" title="This field is required.">*</span></label>
+ <span class="field-prefix">
+<span class="mollom-captcha-container">
+  <a href="javascript:void(0);" class="mollom-refresh-captcha mollom-refresh-image"><img typeof="foaf:Image" src="../../../profiles/uwe_profile/modules/contrib/mollom/images/refresh.png" alt="Refresh" /></a>
+  <span class="mollom-captcha-content mollom-image-captcha"><img typeof="foaf:Image" src="../../../../rest-production.mollom.com_443/v1/captcha/17082453bc68801b97.png" alt="Type the characters you see in this picture." /></span>
+  <span class="mollom-image-captcha-instructions">Type the characters you see in the picture; if you can't read them, submit the form and a new image will be generated. Not case sensitive.&nbsp;&nbsp;<a href="#" class="mollom-switch-captcha mollom-audio-captcha">Switch to audio verification.</a></span>
+</span>
+</span> <input title="Enter the characters from the verification above." type="text" id="edit-mollom-captcha" name="mollom[captcha]" value="" size="10" maxlength="128" class="form-text required" />
+</div>
+<div style="display: none;"><div class="form-item form-type-textfield form-item-mollom-homepage">
+  <label for="edit-mollom-homepage">Home page </label>
+ <input autocomplete="off" type="text" id="edit-mollom-homepage" name="mollom[homepage]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Save" class="form-submit" /></div><div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div></div></form>  </div>
+
+  </div>
+</div>
+  </div>
+</div>  </div>
+
+        </div>
+
+                    <div id="sidebar-right" class="col-md-3 col-sm-offset-3 col-md-offset-0">
+                  <div class="region region-sidebar-right">
+    
+
+<div id="block-views-all-access-block-1" class="block block-views all-access-related-posts">
+
+  
+  <h3 >Related Posts</h3>  
+  <div class="content">
+    <div class="view view-all-access view-id-all_access view-display-id-block_1 view-dom-id-c037caaad4dad23ea6279153035a005e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="coach-tools-now-available-official-sat-practice.html">Coach Tools Now Available on Official SAT Practice</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">08/23/2017</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="../counseling-admissions-academic/college-board-partners-air-assessment-expand.html">College Board Partners with AIR Assessment to Expand Digital SAT Testing</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">08/15/2017</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="ap-rural-access-gap-substantially-narrowing.html">AP Rural Access Gap Substantially Narrowing</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">08/10/2017</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+
+<div id="block-nodeblock-296" class="block block-nodeblock col-md-12 secondary-block">
+
+  
+  <h3 >Search Membership</h3>  
+  <div class="content">
+    <div id="node-296" class="node node-call-out " about="/node/296" typeof="sioc:Item foaf:Document">
+        <span property="dc:title" content="Membership Search" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><script type="text/javascript">
+  function goto_submit(actionflag) {
+    document.membersearch.searchaction.value = actionflag;
+    document.membersearch.submit();
+  }
+</script>
+<form name="membersearch" method="get"
+action="http://apps.collegeboard.com/cbsearch/searchMInstitution.jsp">
+  <p>
+    Choose a state to find College Board member institutions within the United States.
+  </p>
+  <div class="membership-select-box-wrapper">
+    <label for="i_state">
+      <strong>
+        State:
+      </strong>
+    </label>
+    <select
+    id="i_state" name="i_state">
+      <option selected="selected">
+        Choose a State
+      </option>
+      <option value="AL">
+        Alabama
+      </option>
+      <option value="AK">
+        Alaska
+      </option>
+      <option value="AR">
+        Arkansas
+      </option>
+      <option value="AZ">
+        Arizona
+      </option>
+      <option value="CA">
+        California
+      </option>
+      <option value="CO">
+        Colorado
+      </option>
+      <option value="CT">
+        Connecticut
+      </option>
+      <option value="DE">
+        Delaware
+      </option>
+      <option value="DC">
+        District of Columbia
+      </option>
+      <option value="FL">
+        Florida
+      </option>
+      <option value="GA">
+        Georgia
+      </option>
+      <option value="HI">
+        Hawaii
+      </option>
+      <option value="ID">
+        Idaho
+      </option>
+      <option value="IL">
+        Illinois
+      </option>
+      <option value="IN">
+        Indiana
+      </option>
+      <option value="IA">
+        Iowa
+      </option>
+      <option value="KS">
+        Kansas
+      </option>
+      <option value="KY">
+        Kentucky
+      </option>
+      <option value="LA">
+        Louisiana
+      </option>
+      <option value="ME">
+        Maine
+      </option>
+      <option value="MD">
+        Maryland
+      </option>
+      <option value="MA">
+        Massachusetts
+      </option>
+      <option value="MI">
+        Michigan
+      </option>
+      <option value="MN">
+        Minnesota
+      </option>
+      <option value="MS">
+        Mississippi
+      </option>
+      <option value="MO">
+        Missouri
+      </option>
+      <option value="MT">
+        Montana
+      </option>
+      <option value="NE">
+        Nebraska
+      </option>
+      <option value="NV">
+        Nevada
+      </option>
+      <option value="NH">
+        New Hampshire
+      </option>
+      <option value="NJ">
+        New Jersey
+      </option>
+      <option value="NM">
+        New Mexico
+      </option>
+      <option value="NY">
+        New York
+      </option>
+      <option value="NC">
+        North Carolina
+      </option>
+      <option value="ND">
+        North Dakota
+      </option>
+      <option value="OH">
+        Ohio
+      </option>
+      <option value="OK">
+        Oklahoma
+      </option>
+      <option value="OR">
+        Oregon
+      </option>
+      <option value="PA">
+        Pennsylvania
+      </option>
+      <option value="PR">
+        Puerto Rico
+      </option>
+      <option value="RI">
+        Rhode Island
+      </option>
+      <option value="SC">
+        South Carolina
+      </option>
+      <option value="SD">
+        South Dakota
+      </option>
+      <option value="TN">
+        Tennessee
+      </option>
+      <option value="TX">
+        Texas
+      </option>
+      <option value="UT">
+        Utah
+      </option>
+      <option value="VT">
+        Vermont
+      </option>
+      <option value="VI">
+        Virgin Islands, U.S.
+      </option>
+      <option value="VA">
+        Virginia
+      </option>
+      <option value="WA">
+        Washington
+      </option>
+      <option value="WV">
+        West Virginia
+      </option>
+      <option value="WI">
+        Wisconsin
+      </option>
+      <option value="WY">
+        Wyoming
+      </option>
+    </select>
+    <button onclick="goto_submit('searchUS')">
+      Go
+    </button>
+  </div>
+  <p>
+    <a href="javascript:goto_submit('searchOut')">
+      View members outside the United States
+    </a>
+  </p>
+  <!-- <p><B>Country</B> (optional):&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="i_country" size="20"></p> -->
+  <input name="searchaction" type="hidden" value="searchUS"/>
+</form>
+</div></div></div><span property="dc:title" content="Membership Search" class="rdf-meta element-hidden"></span>  </div>
+
+  
+  
+</div>
+  </div>
+</div>  </div>
+            </div>
+        
+
+                    <div id="footer-region" class="row">
+                  <div class="region region-footer">
+    
+
+<div id="block-menu-block-6" class="block block-menu-block visible-xs uw-side-menu mobile container">
+
+  
+  <h3 >Main menu</h3>  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-main-menu parent-mlid-0 menu-level-1" role="navigation">
+  <ul class="menu"><li class="first collapsed menu-mlid-572"><a href="../../../about.html" title="We’re a mission-driven not-for-profit organization that connects students to college success.">About Us</a></li>
+<li class="collapsed menu-mlid-642"><a href="../../../membership.html" title="More than 6,000 member institutions and organizations drive the College Board’s mission. ">Membership</a></li>
+<li class="leaf menu-mlid-867"><a href="../../../press.html" title="Read press releases and announcements to see what’s new at the College Board.">Newsroom</a></li>
+<li class="leaf menu-mlid-581"><a href="https://research.collegeboard.org/" title="Our world-class research informs ongoing innovation in our programs.">Research</a></li>
+<li class="last leaf menu-mlid-28706"><a href="https://professionals.collegeboard.org/prof-dev/events" title="Our events provide professional learning and networking opportunities for educators.">Events</a></li>
+</ul></div>
+  </div>
+</div>  </div>
+            </div>
+        
+
+
+        <div class="breadcrumb hidden-xs" role="navigation" aria-label="Breadcrumbs">  <h3 class="sr-only">You are here</h3><a href="../../../index.html">Home</a><a href="../../../membership.html">Membership</a><a href="../../all-access.html">All Access</a><a href="../Academic-2.html">Academic</a>  <span class="active-trail">It Takes a Team to Open Enrollment in Advanced Placement®</span></div>
+    </div>
+
+</div>
+
+    <div class="pre-post-page-wrapper">
+        <div id="post-page-region" class="row">
+              <div class="region region-post-page">
+    
+
+<div id="block-block-156" class="block block-block">
+
+    
+  <div class="content">
+    <script>
+</script>  </div>
+</div>  </div>
+        </div>
+    </div>
+
+  <div id="cb-global-footer" class="cb-global-footer lv-globalfooter-init cb-apricot"></div>
+  <script type="text/javascript" src="../../../sites/default/files/js/js_2df8bme5ZqaHK_AnrWHpb36RmVSFEjBKkopPNcF7eK8.js"></script>
+
+  <script>
+$( document ).ready(function() {
+  //CB Widgets Init Code Homepage only
+  var globalHeader = new cb.core.widgets.GlobalHeader({
+    placement: {
+      domElement: '#cb-global-header'
+    },
+    tracking: {
+      siteCode: 'www',
+      appId: 292
+    }
+  });
+  var globalFooter = new cb.core.widgets.GlobalFooter({
+    placement: {
+      domElement: '#cb-global-footer'
+    }
+  });
+  if(cb.core.widgets.Notification !== undefined) {
+    var notification = new cb.core.widgets.Notification({
+      placement: {
+        domElement: '#cb-notifications-widget'
+      },
+      services: {
+        notificationURI: '/api/v1/views/cbalerts.json?field_display_sites_tid=HomeOrg'
+      }
+    });
+  }
+  if(cb.core.widgets.LoginHero !== undefined) {
+    // Initialize Login Hero
+    (function() {
+      /**
+       * Build Options
+       */
+      var options = {
+        placement: {
+          domElement: '#cb-hero-login'
+        },
+        tracking: {
+          appId: 292
+        },
+        content: {
+          "guest": {
+            "headline": "",
+            "descriptive": "",
+            "images": {
+              "lg": "/sites/default/files/",
+              "md": "/sites/default/files/",
+              "sm": "/sites/default/files/",
+              "xs": "/sites/default/files/"            }
+          },
+          "professional": {
+            "headline": "",
+            "descriptive": "",
+            "images": {
+              "lg": "/sites/default/files/",
+              "md": "/sites/default/files/",
+              "sm": "/sites/default/files/",
+              "xs": "/sites/default/files/"            }
+          },
+          "student": {
+            "headline": "",
+            "descriptive": "",
+            "images": {
+              "lg": "/sites/default/files/",
+              "md": "/sites/default/files/",
+              "sm": "/sites/default/files/",
+              "xs": "/sites/default/files/"            }
+          }
+        }
+      };
+      var loginHero = new cb.core.widgets.LoginHero(options);
+    })();
+  }
+  if(cb.core.widgets.Search !== undefined) {
+    var collegeSearch = new cb.core.widgets.Search({
+      placement: {
+        domElement: '#cb-college-search-widget'
+      },
+      skin: {
+        template: {
+          uri: 'search-college.tpl'
+        }
+      },
+      config: {
+        strategy: cb.core.widgets.Search.College
+      }
+    });
+  }
+  if(cb.core.widgets.SiteSearch !== undefined) {
+    var siteSearchOptions = {
+      placement: {
+        domElement: '#sitesearch'
+      }
+    };
+    new cb.core.widgets.SiteSearch(siteSearchOptions);
+  }
+});
+</script>
+
+  <script type="text/javascript">_satellite.pageBottom();</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c1e508f4b9","applicationID":"8875813","transactionName":"blFXYRACXktXAkNYXVcbdFYWCl9WGQ9YVVdmRFRSBzxGUVMW","queueTime":0,"applicationTime":775,"atts":"QhZUF1gYTUU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from www.collegeboard.org/membership/all-access/academic/it-takes-team-open-enrollment-advanced-placement?page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Aug 2017 18:44:52 GMT -->
+</html>

@@ -1,0 +1,245 @@
+/*!
+ *  Apricot v3.0.0
+ *  By:             The College Board
+ *  App:            apricot
+ *  Build Time:     2017-07-26 [12:54:16 PM] EDT
+ *  Build Number:   unknown
+ *  SVN Revision:   unknown
+ *  Jenkins Job:    unknown
+ *  This version of Apricot includes Bootstrap v3.7.0
+ */
+
+.cb-program-brand-3-0-0.cb-program-offerings {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div {
+  width: -webkit-calc((100% - 90px) / 4);
+  width: calc((100% - 90px) / 4);
+  margin: 0 15px;
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-top: 12px solid #ffffff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div:first-of-type {
+  margin-left: 0;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div:last-of-type {
+  margin-right: 0;
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cb-program-brand-3-0-0.cb-program-offerings > div {
+    width: -webkit-calc((100% - 20px) / 2);
+    width: calc((100% - 20px) / 2);
+    margin: 0 10px 32px;
+  }
+  .cb-program-brand-3-0-0.cb-program-offerings > div:nth-of-type(2),
+  .cb-program-brand-3-0-0.cb-program-offerings > div:nth-of-type(4) {
+    margin-right: 0;
+  }
+  .cb-program-brand-3-0-0.cb-program-offerings > div:nth-of-type(1),
+  .cb-program-brand-3-0-0.cb-program-offerings > div:nth-of-type(3) {
+    margin-left: 0;
+  }
+  .cb-program-brand-3-0-0.cb-program-offerings > div:nth-last-of-type(2),
+  .cb-program-brand-3-0-0.cb-program-offerings > div:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .cb-program-brand-3-0-0.cb-program-offerings > div {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div[data-cb-program="k-12"] {
+  border-top-color: #009cde;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div[data-cb-program="k-12"] > ul > li > a:hover {
+  background-color: #009cde;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div[data-cb-program="access"] {
+  border-top-color: #3a913f;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div[data-cb-program="access"] > ul > li > a:hover {
+  background-color: #3a913f;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div[data-cb-program="higher-education"] {
+  border-top-color: #702f8a;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div[data-cb-program="higher-education"] > ul > li > a:hover {
+  background-color: #702f8a;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div ul li {
+  width: -webkit-calc(100% - 24px);
+  width: calc(100% - 24px);
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div ul li a {
+  display: block;
+  width: 100%;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div ul li a.focus {
+  outline-style: solid;
+  outline-color: #0077c8;
+  outline-width: 1px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div ul li span:not(.sr-only) {
+  padding: 10px 3px;
+  font-size: 20px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: bold;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div ul li.cb-no-color a::before {
+  height: 0;
+  background: none !important;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul {
+  padding: 0;
+  margin: 12px 0;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li > a {
+  height: 40px;
+  padding: 12px 0;
+  padding-left: 24px;
+  overflow: hidden;
+  line-height: 1em;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li > a::before {
+  height: 40px;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+  background-position: -12px -12px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li:hover span {
+  text-decoration: underline;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li ul {
+  background-color: #f0f0f0;
+  display: inline-block;
+  padding: 24px 0;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li ul li {
+  margin-left: 18px;
+  border-left: 1px dashed #505050;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li ul li + li {
+  padding-top: 16px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li ul li a {
+  padding-left: 12px;
+  color: #505050;
+  width: -webkit-calc(100% - 12px);
+  width: calc(100% - 12px);
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li ul li a:hover {
+  color: #505050;
+}
+.cb-program-brand-3-0-0.cb-program-offerings > div > ul > li p {
+  font-size: 0.875em;
+  line-height: 1.2em;
+  padding: 8px 24px 20px 24px;
+  margin-bottom: 0;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-access-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-access-b::before {
+  width: 95px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-accuplacer-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-accuplacer-b::before {
+  width: 170px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-ap-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-ap-b::before {
+  width: 54px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-pre-ap-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-pre-ap-b::before {
+  width: 94px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-clep-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-clep-b::before {
+  width: 79px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-css-profile-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-css-profile-b::before {
+  width: 139px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-powerfaids-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-powerfaids-b::before {
+  width: 150px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-psat-8-9-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-psat-8-9-b::before {
+  width: 117px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-psat-10-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-psat-10-b::before {
+  width: 107px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-psat-nmsqt-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-psat-nmsqt-b::before {
+  width: 168px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-sat-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-sat-b::before {
+  width: 66px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-springboard-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-springboard-b::before {
+  width: 150px;
+}
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-search-black-b::before,
+.cb-program-brand-3-0-0.cb-program-offerings .cb-programs-search-b::before {
+  width: 95px;
+}
+/*# sourceMappingURL=programBand.css.map */
+
+.middle {
+  background-color: #e9e9e9;
+}
+
+.lv-search-widget.lv-search-type-college {
+  padding: 24px;
+}
+
+.lv-search-widget.lv-search-type-college .lv-suggestion-widget {
+  right: 39px;
+  left: 178px;
+}
+@media only screen and (max-width: 1024px) {
+  .lv-search-widget.lv-search-type-college .lv-suggestion-widget {
+    right: 34px;
+    left: 173px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .lv-search-widget.lv-search-type-college .lv-suggestion-widget {
+    right: 32px;
+    left: 31px;
+  }
+}
+
+.lv-search-widget.lv-search-type-college {
+  margin-bottom: 0;
+  margin-top: 24px;
+}
